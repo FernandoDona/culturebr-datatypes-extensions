@@ -3,7 +3,27 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <Nullable>enable</Nullable>
+    <Title>CultureBR.DataTypes.Extensions.FluentValidation</Title>
+    <Description>Adiciona validações de dados típicos brasileiros como CPF, CNPJ e CEP</Description>
+    <PackageProjectUrl>https://github.com/FernandoDona/culturebr-datatypes-extensions</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/FernandoDona/culturebr-datatypes-extensions</RepositoryUrl>
+    <PackageTags>FluentValidation;cpf;cnpj;cep;validation;cultureinfo;pt-BR;formatter;brazil;brasil</PackageTags>
+    <Company>Fernando Doná</Company>
+    <Authors>Fernando Doná</Authors>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="CultureBR.DataTypes" Version="1.0.1" />
